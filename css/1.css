@@ -1,0 +1,40 @@
+
+.bo {
+    width: 217px;
+    height: 417px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px; /* bo tròn */
+}
+.bo .lop1{
+    width: 217px;
+    height: 417px;
+    position: absolute;
+    top: 0; left: 0;
+    transition: 0.7s;
+}
+.bo:hover .lop1{
+    transform: scale(1.1);
+}
+.bo .lop2{
+    width: 217px;
+    height: 417px;
+    opacity: 0;
+    background-color: black;
+    position: absolute;
+    top: 0; left: 0;
+    transition: 0.7s;
+}
+.bo:hover .lop2{
+    opacity: 0.3;
+}
+.bo .lop3{
+      color: white;
+      position: absolute;
+      font-size: 50px;
+      opacity: 0;
+      top: 175px; left: 90px;
+}
+.bo:hover .lop3{
+    opacity: 1;
+}

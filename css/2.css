@@ -1,0 +1,75 @@
+.bai1 .bai14 .hinh00{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    position: relative;
+    
+}
+.bai1 .bai14 .hinh00 .hinh11{
+    width: 33.3%;
+    height: 440px;
+    
+}
+.bai1 .bai14 .hinh00 .hinh12{
+    width: 33.3%;
+    height: 440px;
+
+}
+.bai1 .bai14 .hinh00 .hinh13{
+    width: 33.3%;
+    height: 440px;
+}
+.bai1 .bai14 .hinh00 .hinh11 img{
+    width: 100%;
+    height: 70%;
+    margin: 50px 0;
+    position: relative;
+    top: 0; left: 0;
+}
+.bai1 .bai14 .hinh00 .hinh12 img{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    margin: 50px 0;
+    top: 0; left: 0;
+}
+.bai1 .bai14 .hinh00 .hinh13 img{
+    width: 100%;
+    height: 70%;
+    margin: 50px 0;
+    position: relative;
+    top: 0; left: 0;
+}
+.bai1 .bai14 .hinh00 .khung01 {
+    width: 100%;
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    top: 0; left: 0;
+    height: 70%;
+    margin: 50px 0;
+}
+.bai1 .bai14 .hinh00 .hinh11:hover{
+    
+    width: 600px;
+    height: 120%;
+    margin-top: -30px; left: 0;
+    transition: 0.7s;
+    
+  }
+  .bai1 .bai14 .hinh00 .hinh12:hover{
+      width: 600px;
+      height: 120%;
+      margin-top: -30px; left: 0;
+      transition: 0.7s;
+  
+  }
+  .bai1 .bai14 .hinh00 .hinh13:hover{
+      width: 600px;
+      height: 120%;
+      margin-top: -30px; left: 0;
+      transition: 0.7s;
+  }
+  .bai1 .bai14 .hinh00 .hinh13 .khung01:hover{
+      opacity: 0;
+  }
